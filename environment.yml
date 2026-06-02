@@ -1,0 +1,79 @@
+name: gis-stuff
+channels:
+  - conda-forge
+dependencies:
+  # Core Python
+  - python=3.11
+  - pip
+
+  # Data analysis
+  - numpy
+  - pandas
+  - scipy
+  - statsmodels
+  - scikit-learn
+
+  # Xarray / NetCDF / Zarr
+  - xarray
+  - netcdf4
+  - h5netcdf
+  - h5py
+  - zarr
+  - dask
+  - bottleneck
+  - cftime
+
+  # Geospatial core
+  - geopandas
+  - shapely
+  - pyproj
+  - fiona
+  - rasterio
+  - rioxarray
+  - regionmask
+  - geopy
+
+  # GIS / remote sensing utilities
+  - cartopy
+  - xesmf
+  - affine
+  - geocube
+  - earthaccess
+  - pooch
+
+  # Visualization
+  - matplotlib
+  - seaborn
+  - plotly
+  - bokeh
+  - hvplot
+  - holoviews
+  - datashader
+  - folium
+  - ipyleaflet
+  - contextily
+
+  # Jupyter tools
+  - jupyterlab
+  - notebook
+  - ipykernel
+  - ipywidgets
+
+  # File formats / IO
+  - openpyxl
+  - xlrd
+  - pyarrow
+  - fastparquet
+  - beautifulsoup4
+  - requests
+  - tqdm
+
+  # Optional but useful
+  - numba
+  - joblib
+  - memory_profiler
+
+  # Pip-only packages
+  - pip:
+      - leafmap
+      - geemap
