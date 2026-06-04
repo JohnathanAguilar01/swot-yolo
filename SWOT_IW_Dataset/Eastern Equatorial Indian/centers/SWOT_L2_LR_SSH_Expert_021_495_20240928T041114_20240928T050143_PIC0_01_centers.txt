@@ -1,2 +1,0 @@
-id,x_center_norm,y_center_norm
-1,0.238501,0.519273
