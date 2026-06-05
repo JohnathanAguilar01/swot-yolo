@@ -67,6 +67,11 @@ dependencies:
   - beautifulsoup4
   - requests
   - tqdm
+  
+  # AVISO THREDDS / OPeNDAP access
+  - siphon
+  - pydap
+  - python-dotenv
 
   # Optional but useful
   - numba
